@@ -1,6 +1,6 @@
 body {
 	background: #fff;
-	font: 14px 'Open Sans' Helvetica, Arial, sans-serif;
+	font: 16px 'Open Sans' Helvetica, Arial, sans-serif;
 	line-height: 1.4;
 	margin: 0 0;
 	margin-bottom: 100px;
@@ -31,7 +31,6 @@ blockquote {
 #resume {
 	margin: 2em 2em 2em 2.5em;
 	max-width: 960px;
-	padding: 0 20px;
 }
 
 /* Resume heading */
@@ -106,10 +105,6 @@ section h2 {
 	color: #6B6B6B;
 }
 
-.item .summary {
-	font-size: 90%;
-}
-
 .item .highlights {
 	list-style: square;
 	font-size: 90%;
@@ -137,6 +132,7 @@ section h2 {
 /* education */
 #education .item {
 	display: inline-block;
+	vertical-align: top;
 	width: 49.5%;
 	border-bottom: 0;
 }
