@@ -50,7 +50,6 @@
 		{{/if}}
 
 		{{#if profiles.length}}
-		<section id="profiles">
 			{{#each profiles}}
 			<div class="profile">
 				{{#if network}}
@@ -69,7 +68,6 @@
 				{{/if}}
 			</div>
 			{{/each}}
-		</section>
 		{{/if}}
 
 	</section>
