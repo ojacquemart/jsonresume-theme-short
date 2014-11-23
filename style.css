@@ -113,10 +113,9 @@ section h2 {
 
 /* skills */
 #skills .item {
-	margin: 0.4em 0;
-	padding: 0;
+	margin: 0.5em 0;
+	padding: 0 0 0.5em;
 	font-size: 90%;
-	border-bottom: 0;
 }
 
 #skills .item .name {
@@ -124,10 +123,14 @@ section h2 {
 	display: inline-block;
 	text-transform: uppercase;
 	margin: 0 1em 0 0;
+	width: 23%;
+	vertical-align: top;
 }
 
 #skills .item .keywords {
 	display: inline-block;
+	width: 70%;
+	vertical-align: top;
 }
 
 /* education */
