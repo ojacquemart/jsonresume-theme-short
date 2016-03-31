@@ -46,7 +46,7 @@
 
 
 		{{#if summary}}
-		<p>{{summary}}</p>
+		<p>{{paragraphSplit summary}}</p>
 		{{/if}}
 
 		{{#if profiles.length}}
@@ -128,7 +128,7 @@
 
 			{{#if summary}}
 			<div class="summary">
-				<p>{{summary}}</p>
+				<p>{{paragraphSplit summary}}</p>
 			</div>
 			{{/if}}
 			{{#if highlights.length}}
