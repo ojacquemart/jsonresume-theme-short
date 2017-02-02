@@ -8,6 +8,12 @@ function render(resume) {
 	var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 	// Nicer dates
+	Handlebars.registerHelper('year', function(date) {
+	  var theDate = new Date(date);
+
+	  return theDate.getFullYear();
+	});
+
 	Handlebars.registerHelper('date', function(date) {
 	  var theDate = new Date(date);
 
