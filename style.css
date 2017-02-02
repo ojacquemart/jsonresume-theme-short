@@ -44,10 +44,31 @@ blockquote {
 	font-weight: 600;
 }
 
+.heading header h1, .heading header h2 {
+	display: inline !important;
+    padding-right: 20px;
+}
+
 .heading header h2 {
-	font-size: 140%;
+	font-weight: 300;
+	font-size: 30px;
 	margin: 0;
-	font-weight: 400;
+}
+
+.vr {
+    display: inline;
+    margin: 0.5em 0px;
+    width: 1px;
+    height: 1em;
+    border-left: 1px solid gray;
+}
+
+.heading header h2.label {
+	margin-bottom: 0.5em;
+}
+
+.heading header .contact {
+	margin-top: 2em;
 }
 
 .heading header .contact .detail {
